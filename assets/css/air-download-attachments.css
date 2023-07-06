@@ -1,0 +1,39 @@
+a.air-download-attachments-button {
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #2196f3;
+    color: #fff;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.4em;
+    box-shadow: none;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
+}
+
+a.air-download-attachments-button:hover {
+    background-color: #1976d2;
+    color: #fff;
+}
+
+a.air-download-attachments-button:active {
+    background-color: #1565c0;
+}
+
+a.air-download-attachments-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.5);
+}
